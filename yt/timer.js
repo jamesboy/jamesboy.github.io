@@ -28,7 +28,7 @@ resetButton.addEventListener("click", function(){
 function count() {
     counter++;
     var minutes = parseInt(counter / 60);
-    var seconds = (counter % 60 == 60) ? 0 : counter % 60;
+    var seconds = counter % 60;
     minutes = (minutes < 10) ? '0' + minutes : minutes;
     seconds = (seconds < 10) ? '0' + seconds : seconds;
     display.innerHTML = minutes + ':' + seconds;
