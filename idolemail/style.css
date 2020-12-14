@@ -1,0 +1,1652 @@
+#coordAnchor,
+body,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+em,
+font,
+img,
+small,
+strong,
+b,
+u,
+i,
+center,
+ol,
+ul,
+li,
+label,
+button,
+input {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* reset */
+
+body {
+    font: 12px Arial, Helvetica, sans-serif
+}
+
+
+/* General */
+
+#coordAnchor {
+    position: relative;
+    width: 750px;
+    margin: 0px auto !important;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.clear {
+    clear: both;
+    float: none;
+}
+
+.right {
+    width: 340px;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.left {
+    width: 400px;
+    text-align: right;
+}
+
+.brand {
+    color: #0072bb;
+    text-decoration: none;
+}
+
+sup {
+    font-size: 9px;
+}
+
+
+/* DSP Elements */
+
+.assetClass {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#sSEMText {
+    margin-top: 10px !important;
+    overflow-x: hidden;
+    clear: both;
+    text-align: center;
+}
+
+
+/* RUN RUN Template */
+
+#main_rr {
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    margin: 0 auto !important;
+    width: 750px;
+    height: 500px;
+    background-color: transparent;
+}
+
+#main_rr.responsive,
+#coordAnchor.responsive {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+#coordAnchor.responsive {
+    width: 100%;
+}
+
+.responsiveClass {
+    position: fixed;
+}
+
+
+/* sa and hp and disclaimer text div */
+
+.TextCoords2 {
+    z-index: 1000 !important;
+}
+
+#verisign_footer {
+    width: 100%;
+    clear: both;
+    margin-top: 32px !important;
+}
+
+#verisign_footer_cont {
+    width: 150px;
+    margin: 0 auto !important;
+}
+
+.customButton1_1Div {
+    position: relative;
+    z-index: 2;
+    height: 145px;
+    width: 300px;
+}
+
+#button1 img {
+    position: relative;
+    z-index: 2;
+}
+
+#button1 p {
+    position: relative;
+    transition: transform .2s ease-in-out;
+    background: #222;
+    display: block;
+    /*TYPE*/
+    text-align: center;
+    font: 16px/0px Helvetica, Verdana, sans-serif;
+    color: #ffffff;
+    /*CSS3*/
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+
+.customButton1_1Div:hover .top {
+    transform: translate(0px, -45px);
+}
+
+.customButton1_1Div:hover .bottom {
+    transform: translate(0px, 48px);
+}
+
+p.top {
+    padding: 20px 0px 30px 0px;
+    margin: -100px 0 0 0;
+}
+
+p.bottom {
+    padding: 35px 0px 20px 0px;
+    margin: -55px 0 0 0;
+}
+
+div#dialogWrapper {
+    background-repeat: no-repeat;
+}
+
+#main_rr.responsive,
+#coordAnchor.responsive {
+    position: relative !important;
+}
+
+.responsiveClass {
+    position: absolute !important;
+}
+
+#main_rr {
+    background-image: url("1521216186111.jpg");
+    background-size: cover;
+    background-color: #D2D2D2 !important;
+    background-position: top center !important;
+    width: 100% !important;
+    height: 2133px !important;
+}
+
+#asset3 {
+    top: 595px;
+    left: 50px;
+    transform: translate();
+    width: 800px;
+    height: 70px;
+}
+
+ul.bullet1_1 {
+    top: 940px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -520px;
+    font-size: 14px;
+    color: #000000;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: normal;
+    width: 520px;
+    height: 300px;
+}
+
+ul.bullet1_1 li {
+    list-style-type: disc;
+    padding: 6px 0px;
+}
+
+ul.bullet1_2 {
+    top: 940px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: 100px;
+    font-size: 14px;
+    color: #000000;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: normal;
+    width: 400px;
+    height: 400px;
+}
+
+ul.bullet1_2 li {
+    list-style-type: none;
+    padding: 6px 0px;
+}
+
+ul.bullet1_3 {
+    top: 335px;
+    left: 430px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: normal;
+}
+
+ul.bullet1_3 li {
+    list-style-type: disc;
+}
+
+ol.bullet1_4 {
+    font-size: 6px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: normal;
+}
+
+ol.bullet1_5 {
+    font-size: 6px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: normal;
+}
+
+ol.bullet1_6 {
+    font-size: 6px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: normal;
+}
+
+.customButton1_1,
+.customButton1_1Div {
+    font-family: Open Sans;
+    font-size: 34px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton1_1Div {
+    top: 0px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.customButton1_2,
+.customButton1_2Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    width: 264px;
+    height: 180px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton1_2Div {
+    top: 1090px;
+    left: 318px;
+}
+
+.customButton1_3,
+.customButton1_3Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton1_3Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton1_4,
+.customButton1_4Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton1_4Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton1_5,
+.customButton1_5Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton1_5Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton1_6,
+.customButton1_6Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton1_6Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton1_7,
+.customButton1_7Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton1_7Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton1_8,
+.customButton1_8Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton1_8Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton1_9,
+.customButton1_9Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton1_9Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton1_10,
+.customButton1_10Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton1_10Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton1_11,
+.customButton1_11Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton1_11Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton1_12,
+.customButton1_12Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton1_12Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton1_13,
+.customButton1_13Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton1_13Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton1_14,
+.customButton1_14Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton1_14Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton1_15,
+.customButton1_15Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton1_15Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton2_1,
+.customButton2_1Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton2_1Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton2_2,
+.customButton2_2Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton2_2Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton2_3,
+.customButton2_3Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton2_3Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton2_4,
+.customButton2_4Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton2_4Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton2_5,
+.customButton2_5Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton2_5Div {
+    top: 0px;
+    left: 0px;
+}
+
+.customButton3_1,
+.customButton3_1Div {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    text-decoration: normal;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.customButton3_1Div {
+    top: 0px;
+    left: 0px;
+}
+
+.TextCoords1 {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+.TextCoords1 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+    display: none;
+}
+
+.TextCoords2 {
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+.TextCoords2 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+    display: none;
+}
+
+label.css-label {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+label.formFields1_1Label {
+    top: px;
+    left: px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+input.formFields1_1 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    padding-left: 5px;
+    outline: none;
+}
+
+label.formFields1_2Label {
+    top: px;
+    left: px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+input.formFields1_2 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    padding-left: 5px;
+    outline: none;
+}
+
+label.formFields1_3Label {
+    top: px;
+    left: px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+input.formFields1_3 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    padding-left: 5px;
+    outline: none;
+}
+
+label.formFields1_4Label {
+    top: px;
+    left: px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+input.formFields1_4 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    padding-left: 5px;
+    outline: none;
+}
+
+label.formFields1_5Label {
+    top: px;
+    left: px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+input.formFields1_5 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    padding-left: 5px;
+    outline: none;
+}
+
+label.formFields1_6Label {
+    top: px;
+    left: px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+input.formFields1_6 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    padding-left: 5px;
+    outline: none;
+}
+
+label.formFields1_7Label {
+    top: px;
+    left: px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+input.formFields1_7 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    padding-left: 5px;
+    outline: none;
+}
+
+label.formFields1_8Label {
+    top: px;
+    left: px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+input.formFields1_8 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    padding-left: 5px;
+    outline: none;
+}
+
+label.formFields1_9Label {
+    top: px;
+    left: px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+input.formFields1_9 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    padding-left: 5px;
+    outline: none;
+}
+
+label.formFields1_10Label {
+    top: px;
+    left: px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+input.formFields1_10 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    padding-left: 5px;
+    outline: none;
+}
+
+label.formFields1_11Label {
+    top: px;
+    left: px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+input.formFields1_11 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    padding-left: 5px;
+    outline: none;
+}
+
+label.formFields1_12Label {
+    top: px;
+    left: px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+input.formFields1_12 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    padding-left: 5px;
+    outline: none;
+}
+
+label.formFields1_13Label {
+    top: px;
+    left: px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+input.formFields1_13 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    padding-left: 5px;
+    outline: none;
+}
+
+label.formFields1_14Label {
+    top: px;
+    left: px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+input.formFields1_14 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    padding-left: 5px;
+    outline: none;
+}
+
+label.formFields1_15Label {
+    top: px;
+    left: px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+input.formFields1_15 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    padding-left: 5px;
+    outline: none;
+}
+
+div.textCoords1_1 {
+    top: 55px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -495px;
+    font-size: 30px;
+    color: #787878;
+    font-family: Open Sans;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    text-align: center;
+    width: 1000px;
+}
+
+div.textCoords1_2 {
+    top: 135px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -400px;
+    font-size: 13px;
+    color: #1C1C1C;
+    font-family: Open Sans;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    text-align: center;
+    width: 800px;
+}
+
+div.textCoords1_3 {
+    font-size: 11px;
+    color: #000000;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    text-align: center;
+}
+
+div.textCoords1_4 {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    text-align: center;
+}
+
+div.textCoords1_5 {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    text-align: center;
+}
+
+div.textCoords1_6 {
+    top: 822px;
+    left: 611px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    text-align: center;
+}
+
+div.textCoords1_7 {
+    top: 1290px;
+    left: 50%;
+    margin-top: 110px;
+    margin-left: -500px;
+    font-size: 28px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: normal;
+    text-align: left;
+    width: 600px;
+    height: 80px;
+}
+
+div.textCoords1_8 {
+    top: 1290px;
+    left: 50%;
+    margin-top: 160px;
+    margin-left: -500px;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    text-align: left;
+    width: 450px;
+    height: 300px;
+}
+
+div.textCoords1_9 {
+    top: 1780px;
+    left: 50%;
+    margin-top: 110px;
+    margin-left: 120px;
+    font-size: 28px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: normal;
+    text-align: left;
+    width: 500px;
+    height: 40px;
+}
+
+div.textCoords1_10 {
+    top: 1780px;
+    left: 50%;
+    margin-top: 160px;
+    margin-left: 120px;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+    text-align: left;
+    width: 500px;
+    height: 300px;
+}
+
+div.textCoords1_11 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+div.textCoords1_12 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+div.textCoords1_13 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+div.textCoords1_14 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+div.textCoords1_15 {
+    top: 210px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -300px;
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+div.textCoords2_1 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+div.textCoords2_2 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+div.textCoords2_3 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+div.textCoords2_4 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+div.textCoords2_5 {
+    font-size: 6px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+
+/* Asset 1*/
+
+#asset1_1 {
+    top: 16px;
+    left: 0px;
+    margin-top: 0px;
+    margin-left: 14px;
+    width: 216px;
+    height: 29px;
+}
+
+
+/* Asset 2*/
+
+#asset1_2 {
+    top: 230px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -640.5px;
+    width: 1281px;
+    height: 660px;
+}
+
+
+/* Asset 3*/
+
+#asset1_3 {
+    top: 190px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -243px;
+    width: 58px;
+    height: 68px;
+}
+
+
+/* Asset 4*/
+
+#asset1_4 {
+    top: 190px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: 183px;
+    width: 58px;
+    height: 68px;
+}
+
+
+/* Asset 5*/
+
+#asset1_5 {
+    top: 183px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+/* Asset 6*/
+
+#asset1_6 {
+    top: 1290px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -500px;
+    width: 81px;
+    height: 91px;
+}
+
+
+/* Asset 7*/
+
+#asset1_7 {
+    top: 1290px;
+    left: 50%;
+    margin-left: 59px;
+    width: 276px;
+    height: 300px;
+}
+
+
+/* Asset 8*/
+
+#asset1_8 {
+    top: 1780px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: 120px;
+    width: 81px;
+    height: 91px;
+}
+
+
+/* Asset 9*/
+
+#asset1_9 {
+    top: 1780px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -450px;
+    width: 299px;
+    height: 275px;
+}
+
+
+/* Asset 10*/
+
+#asset1_10 {
+    top: 400px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -435.5px;
+}
+
+
+/* Asset 11*/
+
+#asset1_11 {
+    top: -70px;
+    left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+/* Asset 12*/
+
+#asset1_12 {
+    top: -70px;
+    right: -40px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+
+/* Asset 13*/
+
+#asset1_13 {
+    top: 6px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -206.5px;
+}
+
+
+/* Asset 14*/
+
+#asset1_14 {
+    top: 40px;
+    right: 10px;
+    transform: translate(0, 0);
+    width: 0px;
+    height: 0px;
+}
+
+
+/* Asset 15*/
+
+#asset1_15 {
+    top: 220px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 0px;
+    height: 0px;
+}
+
+
+/* Asset 1*/
+
+#asset2_1 {
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+}
+
+
+/* Asset 2*/
+
+#asset2_2 {
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+}
+
+
+/* Asset 3*/
+
+#asset2_3 {
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+}
+
+
+/* Asset 4*/
+
+#asset2_4 {
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+}
+
+
+/* Asset 5*/
+
+#asset2_5 {
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+}
+
+#mindspark_modal_background_sAssetRebuttal_1ImageDv {
+    z-index: 1000 !important;
+}
+
+
+/*rebuttal bubble*/
+
+#sAssetRebuttal_1ImageDv,
+#DLP_dvSplashRebuttal_container img {
+    width: 0px;
+    height: 0px;
+}
+
+#sAssetRebuttal_1ImageDv.assetClass {
+    background: none !important;
+}
+
+#sAssetRebuttal_1ImageDv .textCoordsRebuttal_3 {
+    margin: 0 auto;
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+.TextCoordsRebuttal_3 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+#sAssetRebuttal_1ImageDv .textCoordsRebuttal_4 {
+    margin: 0 auto;
+    font-family: Arial;
+    font-size: 6px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+.TextCoordsRebuttal_4 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.HtmlCoords2,
+.HtmlCoords2 a {
+    left: 50%;
+    bottom: 1345px;
+    margin-left: 310px;
+    margin-bottom: 0px;
+    color: #000000;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: normal;
+    text-align: right;
+    width: 310px;
+}
+
+#footer.responsiveClass {
+    top: 815px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: 310px;
+    width: 310px;
+    height: 50px;
+}
+
+#footer,
+#footer a {
+    font-family: Arial;
+    text-align: right;
+    color: #000000;
+}
+
+.searchBrandImagesplash_1 {
+    width: 250px;
+    height: 40px;
+    top: 12px;
+    left: 0px;
+    margin-top: 0px;
+    margin-left: 50px;
+    background-repeat: no-repeat;
+}
+
+#localStorageIframe,
+#splashPixelsIframe,
+#localStorageIframeAsk,
+#downloadLocalStorageIframe {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: -500px;
+}
+
+.DLP_container .norton,
+.DLP_container #norton {
+    display: none !important;
+}
+
+#ffSearchAssist {
+    width: 500px;
+    font-family: 'Arial', sans-serif;
+    top: 120px !important;
+    left: 102px !important;
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    z-index: 1005 !important;
+}
+
+#ffSearchAssist .text-content {
+    text-align: center;
+    font: bold 16px Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+
+#ffSearchAssist {
+    font-size: 12px;
+}
+
+#ffSearchAssist a:link {
+    color: #000000;
+}
+
+#ffSearchAssist #text-and-logo {
+    display: inline-flex;
+    margin: 0 auto;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #666666;
+}
+
+#ffSearchAssist #logo {
+    margin-right: 15px;
+}
+
+.quiz-button {
+    background-color: #dd9933;
+    border-color: #dd9933;
+    background-image: -webkit-linear-gradient(top, #dd9933 0%, #dd9933 100%);
+    background-image: -o-linear-gradient(top, #dd9933 0%, #dd9933 100%);
+    background-image: linear-gradient(to bottom, #dd9933 0%, #dd9933 100%);
+    background-repeat: repeat-x;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FFFEA338', endColorstr='#FFEB7A1A', GradientType=0);
+    border: 0 !important;
+    animation: pulse infinite 2s ease-in-out;
+    transition: all 0.3s ease-in;
+}
+
+a.btn.quiz-button {
+    padding: 45px 250px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 45px;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-weight: 600;
+    color: #fff !important;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+}
+
+.quiz-button:hover,
+.quiz-button:active {
+    background-color: #0277BD !important;
+    color: #fff !important;
+    border: 0 !important;
+}
+
+@-webkit-keyframes pulse {
+    0%,
+    to {
+        -webkit-transform: none;
+        transform: none
+    }
+    70% {
+        -webkit-transform: scale(.75);
+        transform: scale(.75)
+    }
+}
+
+@keyframes pulse {
+    0%,
+    to {
+        -webkit-transform: none;
+        transform: none
+    }
+    70% {
+        -webkit-transform: scale(.75);
+        transform: scale(.75)
+    }
+}
+
+@media screen and (max-width: 600px) {
+    a.btn.quiz-button {
+        padding: 35px 130px;
+    }
+    .exitpopup_btn {
+        padding: 30px 80px !important;
+    }
+}

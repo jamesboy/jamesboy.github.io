@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Author">
+    <style type="text/css">
+        body {
+            zoom: 1;
+            padding: 10px;
+            padding-top: 0;
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+            color: #000000;
+            font-size: 12px;
+        }
+        
+        .form {
+            max-width: 320px;
+            margin: 20px 0 0 5px;
+        }
+        
+        p,
+        td {
+            margin: 8px 0 0 0;
+            border: 0px;
+        }
+        
+        p.formklein {
+            margin: 5px 0 0 0;
+            font-family: Arial, sans-serif;
+            color: #000000;
+            font-size: 10px;
+        }
+        
+        input,
+        textarea {
+            width: 100%;
+        }
+        
+        textarea {
+            height: 102px;
+        }
+        
+        input.form,
+        input.formsubmit,
+        select.form,
+        option.form,
+        textarea.form {
+            color: #000000;
+            font-size: 12px;
+            border: 1px solid #C8C8C8;
+            padding: 2px;
+            margin: 0px;
+            margin-top: 5px;
+            font-family: Arial, sans-serif;
+        }
+        
+        input.form:hover,
+        input.form:focus,
+        select.form:hover,
+        textarea.form:hover,
+        select.form:focus,
+        textarea.form:focus {
+            border: 1px solid #000000;
+        }
+        
+        input.radio {
+            width: auto;
+        }
+        
+        option.form {
+            padding: 0px;
+            width: auto;
+            border: 0px;
+        }
+        
+        input.formsubmit {
+            width: 115px;
+            margin-left: 3px;
+            cursor: pointer;
+        }
+        
+        input.captcha {
+            width: 60px;
+            margin-left: 15px;
+            margin-right: 0px;
+        }
+        
+        p.error {
+            background: #ffffff url("delete.png") no-repeat;
+            height: 30px;
+            padding-left: 45px;
+            padding-top: 10px;
+            margin: 10px 10px -5px 10px;
+            color: #ce2c09;
+        }
+        
+        span.error2 {
+            color: #ce2c09;
+            background: #ffd4d9 !important;
+        }
+        
+        p.success {
+            background: #ffffff url("check.png") no-repeat;
+            height: 30px;
+            padding-left: 45px;
+            padding-top: 10px;
+            margin: 10px 10px -5px 10px;
+            color: #248200;
+        }
+        
+        input[type=submit] {
+            margin-top: 0;
+        }
+        
+        .highlight {
+            border: 1px solid #ce2c09 !important;
+            background: #ffd4d9 !important;
+        }
+        
+        #bottom {
+            text-align: center;
+        }
+    </style>
+    <title>Contact Form</title>
+</head>
+
+<body>
+    <div class="form">
+        <h1>idol.email</h1>
+        <!-- <form method="post" style="width: 100%;" novalidate=""> -->
+        <input type="hidden">
+        <p class="form">Title: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="anrede" class="radio" value="Mr." \=""> &nbsp;&nbsp;Mr. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="anrede" class="radio" value="Mrs." \=""> &nbsp;&nbsp;Mrs.
+            <br>
+        </p>
+        <p class="form">Name:
+            <br>
+            <input type="text" class="form" name="name" id="name" value="">
+        </p>
+        <p class="form">E-Mail: <span style="font-weight: bolder; color: red;">*</span>
+            <br>
+            <input type="email" class="form" name="email" id="email" value="">
+        </p>
+        <p class="form">Subject:
+            <br>
+            <input type="text" class="form" name="betreff" id="subject" value="">
+        </p>
+        <p class="form">Message: <span style="font-weight: bolder; color: red;">*</span>
+            <br>
+            <textarea name="nachricht" rows="9" class="form" id="message"></textarea>
+        </p>
+        <div id="bottom">
+            <input type="submit" value="Send message!" class="formsubmit" onclick="validate();">
+            <p class="formklein">All fields marked with <span style="font-weight: bolder; color: red;">*</span> are required.
+            </p>
+        </div>
+        <p style="font-size: 24px; font-weight: bolder; color: green; text-align: center; margin-top: 30px; display: none;" id="email_sent">Email Sent Successfully!</p>
+        <!-- </form> -->
+    </div>
+
+    <script>
+        function validate() {
+
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+
+            if (email == "") {
+                document.getElementById("email").style.borderColor = "red";
+            } else {
+                document.getElementById("email").style.borderColor = "#C8C8C8";
+            }
+
+            if (message == "") {
+                document.getElementById("message").style.borderColor = "red";
+            } else {
+                document.getElementById("message").style.borderColor = "#C8C8C8";
+            }
+
+            if (email != "" && message != "") {
+                document.getElementById("name").value = "";
+                document.getElementById("email").value = "";
+                document.getElementById("subject").value = "";
+                document.getElementById("message").value = "";
+                document.getElementById("email_sent").style.display = "block";
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>
