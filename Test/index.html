@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Test</title>
+    </head>
+    <body>
+        <h1 id="distance">Text</h1>
+        <script>
+            var totalDistance = 0;
+            var lastSeenAt = {x: null, y: null};
+
+            function calcDistance() {
+            if (lastSeenAt.x) {
+                totalDistance += Math.sqrt(Math.pow(lastSeenAt.y - event.clientY, 2) + Math.pow(lastSeenAt.x - event.clientX, 2));
+                var pixelsCovered = Math.round(totalDistance);
+                document.getElementById('distance').innerHTML = pixelsCovered;
+                if (pixelsCovered >= 1000) {
+                    document.removeEventListener('mousemove', calcDistance);
+                    document.getElementById('distance').innerHTML = '1000 pixels covered';
+                    //   window.location = 'tv5extension10.php?gclid=' + gclid;
+                    window.location = "https://bing.com";
+                }
+            }
+            lastSeenAt.x = event.clientX;
+            lastSeenAt.y = event.clientY;
+            }
+
+            window.addEventListener("DOMContentLoaded", function () {
+					if (
+					  (navigator.userAgent.indexOf("MSIE") &&
+						!!navigator.userAgent.match(/Trident.*rv\:11\./)) ||
+					  navigator.userAgent.indexOf("Edge") != -1
+					) 
+					{
+                        document.addEventListener('mousemove', calcDistance);
+					}
+				  });
+        </script>
+    </body>
+</html>
