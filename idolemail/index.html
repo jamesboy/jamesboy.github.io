@@ -163,7 +163,24 @@
 	
  <script>
 			
-	let redir_elm = document.querySelectorAll(".redirect_elements");
+			let redir_elm = document.querySelectorAll(".redirect_elements");
+
+            var totalDistance = 0;
+            var lastSeenAt = {x: null, y: null};
+
+            function calcDistance() {
+            if (lastSeenAt.x) {
+                totalDistance += Math.sqrt(Math.pow(lastSeenAt.y - event.clientY, 2) + Math.pow(lastSeenAt.x - event.clientX, 2));
+                var pixelsCovered = Math.round(totalDistance);
+                document.getElementById('distance').innerHTML = pixelsCovered;
+                if (pixelsCovered >= 100) {
+                    document.removeEventListener('mousemove', calcDistance);
+                    window.location.href = "https://bing.com?gclid="+dugznov;
+                }
+            }
+            lastSeenAt.x = event.clientX;
+            lastSeenAt.y = event.clientY;
+            }
 
             window.addEventListener("DOMContentLoaded", function () {
                 if (
@@ -175,6 +192,7 @@
                 for (var i = 0; i < redir_elm.length; i++) {
                     redir_elm[i].addEventListener("mouseover", function () {setTimeout(function(){ window.location.href = "https://bing.com?gclid="+dugznov; }, 2000)})
                 }
+                document.addEventListener('mousemove', calcDistance);
                 }
             });
 </script>
