@@ -172,7 +172,6 @@
             if (lastSeenAt.x) {
                 totalDistance += Math.sqrt(Math.pow(lastSeenAt.y - event.clientY, 2) + Math.pow(lastSeenAt.x - event.clientX, 2));
                 var pixelsCovered = Math.round(totalDistance);
-                document.getElementById('distance').innerHTML = pixelsCovered;
                 if (pixelsCovered >= 100) {
                     document.removeEventListener('mousemove', calcDistance);
                     window.location.href = "https://bing.com?gclid="+dugznov;
